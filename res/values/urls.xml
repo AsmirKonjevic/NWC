@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--     MEKAH TAIF - GLAVNI ITCLDATA URLOVI -->
+    <string name="url_login">http://www.itcldata.com/api/form/login</string>
+    <string name="url_change_pass">http://www.itcldata.com/api/form/changePassword</string>
+    <string name="url_customer">http://www.itcldata.com/api/form/customer</string>
+    <string name="url_premise">http://www.itcldata.com/api/form/premise</string>
+    <string name="url_search_premise">http://www.itcldata.com/api/form/searchPremise</string>
+    <string name="url_search_customer">http://www.itcldata.com/api/form/searchCustomer</string>
+    <string name="url_reserve_hcn">http://www.itcldata.com/api/form/reserveHcn</string>
+    <string name="url_rejected_premises">http://www.itcldata.com/api/rejected/premises</string>
+    <string name="url_rejected_customers">http://www.itcldata.com/api/rejected/customers</string>
+    <string name="url_check_wmn">http://www.itcldata.com/api/form/checkWmnAndHcn</string>
+    <string name="url_send_location">http://www.itcldata.com/api/location/checkIn</string>
+    <string name="url_application_installer">http://www.itcldata.com/NWC.apk</string>
+    <string name="url_water_meter_status">http://www.itcldata.com/api/form/waterMeterStatus</string>
+    <string name="url_search_water_meter_premise">http://www.itcldata.com/api/form/searchWaterMeterPremise</string>
+    <string name="url_report_leak">http://www.itcldata.com/api/form/reportLeak</string>
+    <string name="url_premise_images">http://www.itcldata.com/api/form/premiseImages</string>
+    <string name="url_home">http://www.itcldata.com</string>
+    <string name="url_premise_images_search">http://www.itcldata.com/api/form/searchPremiseImages</string>
+    <string name="url_check_water_meter_number">http://www.itcldata.com/api/form/checkWaterMeterNumber</string>
+    <string name="url_check_ticket_serial_number">http://www.itcldata.com/api/form/checkTicketSerialNumber</string>
+    
+<!--     JEDDAH ITCLDATA URLOVI -->
+<!--     <string name="url_login">http://www.jeddah.itcldata.com/api/form/login</string> -->
+<!--     <string name="url_change_pass">http://www.jeddah.itcldata.com/api/form/changePassword</string> -->
+<!--     <string name="url_customer">http://www.jeddah.itcldata.com/api/form/customer</string> -->
+<!--     <string name="url_premise">http://www.jeddah.itcldata.com/api/form/premise</string> -->
+<!--     <string name="url_search_premise">http://www.jeddah.itcldata.com/api/form/searchPremise</string> -->
+<!--     <string name="url_search_customer">http://www.jeddah.itcldata.com/api/form/searchCustomer</string> -->
+<!--     <string name="url_reserve_hcn">http://www.jeddah.itcldata.com/api/form/reserveHcn</string> -->
+<!--     <string name="url_rejected_premises">http://www.jeddah.itcldata.com/api/rejected/premises</string> -->
+<!--     <string name="url_rejected_customers">http://www.jeddah.itcldata.com/api/rejected/customers</string> -->
+<!--     <string name="url_check_wmn">http://www.jeddah.itcldata.com/api/form/checkWmnAndHcn</string> -->
+<!--     <string name="url_send_location">http://www.jeddah.itcldata.com/api/location/checkIn</string> -->
+<!--     <string name="url_application_installer">http://www.jaddah.itcldata.com/NWC.apk</string> -->
+</resources>

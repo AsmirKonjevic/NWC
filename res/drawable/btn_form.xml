@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+			    android:startColor="#33DDDDDD"
+			    android:endColor="#AADDDDDD"
+			    android:angle="-90"
+			    android:type="linear"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <corners 
+                android:radius="10dp"
+                />
+        </shape>
+	</item>    
+    <item android:state_selected="true">
+        <shape>
+            <gradient
+			    android:startColor="#33DDDDDD"
+			    android:endColor="#AADDDDDD"
+			    android:angle="-90"
+			    android:type="linear"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <corners 
+                android:radius="10dp"
+                />
+        </shape>
+	</item>    
+    <item android:state_focused="true">
+       	<shape>
+            <gradient
+			    android:startColor="#33DDDDDD"
+			    android:endColor="#AADDDDDD"
+			    android:angle="-90"
+			    android:type="linear"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <corners 
+                android:radius="10dp"
+                />
+        </shape>
+    </item>
+    <item>
+		<shape>
+            <gradient
+			    android:startColor="#66FFFFFF"
+			    android:endColor="#BBFFFFFF"
+			    android:angle="-90"
+			    android:type="linear"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <corners 
+                android:radius="10dp"
+                />
+        </shape>
+    </item>
+</selector>

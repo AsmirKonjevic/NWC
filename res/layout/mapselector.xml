@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+        
+        <com.google.android.maps.MapView
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:apiKey="0_krpIVNgSVuNoLLHOI1xwlLp3G003oB8TLm9jA"
+		    android:id="@+id/mapview"
+		    android:clickable="true"
+		    />
+
+        <ImageButton
+            android:id="@+id/btnOverlayLocate"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/mapbtn_locate"
+            android:background="@drawable/mapbtn" />
+        
+
+       <ImageButton
+          	android:id="@+id/btnOverlaySwitch"
+          	android:layout_alignParentRight="true"
+          	android:layout_marginRight="35dp"
+			android:layout_marginTop="35dp"
+          	android:layout_width="60dp"
+          	android:layout_height="60dp"
+          	android:background="@drawable/mapbtn"
+          	android:src="@drawable/mapbtn_switch" />
+
+	
+        <ImageView android:id="@+id/drag"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/marker"
+		    android:visibility="gone"
+		  />
+
+        <Button
+            android:id="@+id/btnSetLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Set Premise Location" />
+
+    </RelativeLayout>
+	
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/bgpattern"
+    android:padding="30dp"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/formbgpattern" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Welcome Test User" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPremisse"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="80dp"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/form_premise_icon"
+                    android:text="@string/premise_form"
+                    android:textColor="#333333" />
+
+                <Button
+                    android:id="@+id/btnCustomer"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/form_customer_icon"
+                    android:text="@string/customer_form"
+                    android:textColor="#333333" />
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnRejectedPremisse"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="80dp"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/form_premise_r_icon"
+                    android:text="@string/rejected_premises"
+                    android:textColor="#333333" />
+	            
+	            <Button
+	                android:id="@+id/btnRejectedCustomer"
+	                android:layout_width="120dp"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_form"
+	                android:drawableTop="@drawable/form_customer_r_icon"
+	                android:text="@string/rejected_customers"
+	                android:textColor="#333333" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal" >
+	            
+                <Button
+                    android:id="@+id/btnWaterMeterForm"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="80dp"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/form_status"
+                    android:text="@string/water_meter_form"
+                    android:textColor="#333333" />
+                
+                <Button
+                    android:id="@+id/btnReportLeakForm"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/form_leak"
+                    android:text="@string/report_leak_form"
+                    android:textColor="#333333" />
+
+            </LinearLayout>
+	        
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="30dp"
+	            android:gravity="center_horizontal" >
+	
+                <Button
+                    android:id="@+id/btnPremiseImage"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="80dp"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/form_premise_image_icon"
+                    android:text="@string/premise_image"
+                    android:textColor="#333333" />
+       <Button
+                    android:id="@+id/btnViolationDisconnectionForm"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_form"
+                    android:drawableTop="@drawable/disconnect"
+                    android:text="@string/report_disconnection_connection"
+                    android:textColor="#333333" />
+
+	        </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="30dp"
+	            android:gravity="center_horizontal" >
+	 			<Button
+	                android:id="@+id/btnSync"
+	                android:layout_width="120dp"
+	                android:layout_marginRight="80dp"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_form"
+	                android:drawableTop="@drawable/form_sync_icon"
+	                android:text="@string/sync"
+	                android:textColor="#333333" />
+	
+	            <Button
+	                android:id="@+id/btnLogout"
+	                android:layout_width="120dp"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_form"
+	                android:drawableTop="@drawable/logout"
+	                android:text="@string/logout"
+	                android:textColor="#333333" />
+	
+	        </LinearLayout>
+            
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtSync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Items waiting to be synced: 2"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtAppVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App version: 1.2"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtDbVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Database version: 6"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#10FFFFFF"
+    android:gravity="top"
+    android:paddingBottom="10dip"
+    android:paddingTop="10dip" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp" >
+
+        <LinearLayout
+            android:id="@+id/lnFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/full_name" />
+
+            <TextView
+                android:id="@+id/txtFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnPoBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/po_box" />
+	        <TextView
+	            android:id="@+id/txtPoBox"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="TextView"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/zip_code" />
+	        <TextView
+	            android:id="@+id/txtZip"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Type: Offices (Commercial)"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnHcn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/rejected_hcn" />
+	        <TextView
+	            android:id="@+id/txtHcn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="HCN: 10013213123"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/contact_name" />
+	        <TextView
+	            android:id="@+id/txtContactName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="WMN: 2433454334242"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnContactStreetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/contact_street_name" />
+	        <TextView
+	            android:id="@+id/txtContactStreetName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="WMN: 2433454334242"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/lnContactPoBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/contact_po_box" />
+	        <TextView
+	            android:id="@+id/txtContactPoBox"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="WMN: 2433454334242"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+            android:id="@+id/lnContactZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/contact_zip_code" />
+	        <TextView
+	            android:id="@+id/txtContactZip"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="WMN: 2433454334242"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+            android:id="@+id/lnReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/rejected_reason" />
+	        <TextView
+	            android:id="@+id/txtReason"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Reason: bad photos, invalid stc number and invalid use of buidling"
+	            android:layout_marginBottom="3dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+	        android:id="@+id/btnMap"
+	        android:layout_width="110dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/map" />
+    </LinearLayout>
+
+    
+    
+</LinearLayout>

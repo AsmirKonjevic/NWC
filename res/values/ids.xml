@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="takeOwnerPhoto" type="id"/>
+    <item name="takeAlternateContactPhoto" type="id"/>
+    <item name="selectOwnerPhoto" type="id"/>
+    <item name="selectAlternateContactPhoto" type="id"/>
+    <item name="deleteOwnerPhoto" type="id"/>
+    <item name="deleteAlternateContactPhoto" type="id"/>
+
+    <item name="takeHouse1Photo" type="id"/>
+    <item name="takeHouse2Photo" type="id"/>
+    <item name="takeHouse3Photo" type="id"/>
+    <item name="takeConnectionPhoto" type="id"/>
+    <item name="takeInstrumentPhoto" type="id"/>
+    <item name="takeSTCPhoto" type="id"/>
+    <item name="takeSECPhoto" type="id"/>
+    <item name="selectHouse1Photo" type="id"/>
+    <item name="selectHouse2Photo" type="id"/>
+    <item name="selectHouse3Photo" type="id"/>
+    <item name="selectConnectionPhoto" type="id"/>
+    <item name="selectInstrumentPhoto" type="id"/>
+    <item name="selectSTCPhoto" type="id"/>
+    <item name="selectSECPhoto" type="id"/>
+    <item name="deleteHouse1Photo" type="id"/>
+    <item name="deleteHouse2Photo" type="id"/>
+    <item name="deleteHouse3Photo" type="id"/>
+    <item name="deleteConnectionPhoto" type="id"/>
+    <item name="deleteInstrumentPhoto" type="id"/>
+    <item name="deleteSTCPhoto" type="id"/>
+    <item name="deleteSECPhoto" type="id"/>    
+    
+    <item name="takeWaterMeterPhoto" type="id"/>
+    <item name="selectWaterMeterPhoto" type="id"/>
+    <item name="deleteWaterMeterPhoto" type="id"/>
+    
+    <item name="takePhoto" type="id"/>
+    <item name="selectPhoto" type="id"/>
+    <item name="deletePhoto" type="id"/>    
+</resources>
